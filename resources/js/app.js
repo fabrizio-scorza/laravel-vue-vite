@@ -5,3 +5,11 @@ import * as bootstrap from 'bootstrap';
 import.meta.glob([
     '../img/**'
 ])
+
+import { createApp } from "vue";
+import TestComponent from "./Components/TestComponents.vue"
+import TestComponents from './Components/TestComponents.vue';
+
+const app = createApp({});
+app.component("test-components", TestComponents);
+app.mount("#app");
