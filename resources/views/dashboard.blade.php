@@ -18,6 +18,7 @@
                     @endif
 
                     {{ __('You are logged in!') }}
+                    <test-components></test-components>
                 </div>
             </div>
         </div>
