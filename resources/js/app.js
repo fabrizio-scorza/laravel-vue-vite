@@ -7,7 +7,6 @@ import.meta.glob([
 ])
 
 import { createApp } from "vue";
-import TestComponent from "./Components/TestComponents.vue"
 import TestComponents from './Components/TestComponents.vue';
 
 const app = createApp({});
